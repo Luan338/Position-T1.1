@@ -1,0 +1,43 @@
+.caixa1{
+    border: 1px solid gray;
+    height: 200px;
+    position: relative;
+}
+
+.caixa2{
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.caixa3{
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+button{
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+}
+
+h2{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+}
+
+h3{
+    background: purple;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    position: fixed;
+    bottom: -20px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 999999;
+}
